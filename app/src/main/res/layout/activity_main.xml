@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Travel Memo"
+        android:id="@+id/welID"
+        android:layout_marginTop="100sp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_below="@+id/welID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:backgroundTint="#0000FF"
+        android:textColor="#FFFFFF"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="20sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="400dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/btnSignUp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#0000FF"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>
